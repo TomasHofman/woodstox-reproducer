@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<activemq-journal>
+   <bindings>
+      <binding address="jms.queue.ExpiryQueue" filter-string="" queue-name="jms.queue.ExpiryQueue" id="3"/>
+      <binding address="jms.queue.DLQ" filter-string="" queue-name="jms.queue.DLQ" id="7"/>
+      <binding address="jms.queue.testQueue" filter-string="" queue-name="jms.queue.testQueue" id="12"/>
+   </bindings>
+   <jms-destinations>
+   </jms-destinations>
+   <messages>
+      <message id="33" priority="4" expiration="0" timestamp="1474286136623" type="text" user-id="fa363c10-7e5f-11e6-9662-0f029f3cd3d0">
+         <properties>
+            <property name="__AMQ_CID" value="fa2d1445-7e5f-11e6-9662-0f029f3cd3d0" type="simple-string"/>
+            <property name="count" value="8" type="integer"/>
+            <property name="counter" value="8" type="integer"/>
+            <property name="_AMQ_DUPL_ID" value="3396b670-af1d-4dc0-831a-63c38eb17270" type="simple-string"/>
+         </properties>
+         <queues>
+            <queue name="jms.queue.testQueue"/>
+         </queues>
+         <body>
+            <![CDATA[AQAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]>
+         </body>
+      </message>
+      <message id="35" priority="4" expiration="0" timestamp="1474286136623" type="text" user-id="fa363c11-7e5f-11e6-9662-0f029f3cd3d0">
+         <properties>
+            <property name="__AMQ_CID" value="fa2d1445-7e5f-11e6-9662-0f029f3cd3d0" type="simple-string"/>
+            <property name="count" value="9" type="integer"/>
+            <property name="counter" value="9" type="integer"/>
+            <property name="_AMQ_DUPL_ID" value="bbf9d86b-2f1e-4f0a-b880-11bed7b0d998" type="simple-string"/>
+         </properties>
+         <queues>
+            <queue name="jms.queue.testQueue"/>
+         </queues>
+         <body>
+            <![CDATA[AQAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]>
+         </body>
+      </message>
+      <message id="35" priority="4" expiration="0" timestamp="1474286136623" type="text" user-id="fa363c11-7e5f-11e6-9662-0f029f3cd3d0">
+         <properties>
+            <property name="__AMQ_CID" value="fa2d1445-7e5f-11e6-9662-0f029f3cd3d0" type="simple-string"/>
+            <property name="count" value="9" type="integer"/>
+            <property name="counter" value="9" type="integer"/>
+            <property name="_AMQ_DUPL_ID" value="bbf9d86b-2f1e-4f0a-b880-11bed7b0d998" type="simple-string"/>
+         </properties>
+         <queues>
+            <queue name="jms.queue.testQueue"/>
+         </queues>
+         <body>
+            <![CDATA[AQAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]>
+         </body>
+      </message>
+   </messages>
+</activemq-journal>
