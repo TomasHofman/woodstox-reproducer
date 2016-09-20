@@ -24,6 +24,7 @@ public class WoodstoxTest {
                 reader.next();
                 String characters = new String(reader.getTextCharacters(), reader.getTextStart(), reader.getTextLength());
                 System.out.println(characters.length());
+                Assert.assertEquals(XMLStreamConstants.CDATA, reader.getEventType());
                 Assert.assertEquals(540, characters.length());
             }
             reader.next();
